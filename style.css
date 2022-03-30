@@ -1,0 +1,37 @@
+#container {
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#container label {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin-right: 50px;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+input[type="checkbox"] {
+    zoom: 1.5;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: gray;
+}
